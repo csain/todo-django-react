@@ -1,28 +1,7 @@
+# Todo App
 
 
-
-Following this tutorial
-https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react
-
-
-
-# Run server
-
-` python3 manage.py runserver`
-
-Commamnd line
-use `python3`
-pipenv shell
-django-admin
-
-
-#### Create a superuser
-`python manage.py createsuperuser`
-
-
-### Setup django REST
-`pipenv install djangorestframework django-cors-headers`
-
+Building a Todo App in Django & React: https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react
 
 
 ### Server
@@ -30,13 +9,19 @@ django-admin
 Run server:
 
 ```
- python manage.py runserver
+ python3 manage.py runserver
 ```
 
-> Note: This command has to be run in the `backend` directory in a virtual Pipenv shell.
+> Note: This command has to be run in the `backend` directory in a virtual Pipenv shell (`pipenv shell`)
 
-### Progress
+Access: http://localhost:8000/admin
 
-Setup back-end
-Next step, setup frontend
-https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react#toc-setting-up-the-frontend
+
+
+### Client
+
+```
+yarn start
+```
+
+Access: http://localhost:3000
