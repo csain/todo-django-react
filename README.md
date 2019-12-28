@@ -24,6 +24,17 @@ django-admin
 `pipenv install djangorestframework django-cors-headers`
 
 
+
+### Server
+
+Run server:
+
+```
+ python manage.py runserver
+```
+
+> Note: This command has to be run in the `backend` directory in a virtual Pipenv shell.
+
 ### Progress
 
 Setup back-end
